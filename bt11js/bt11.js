@@ -4,8 +4,8 @@ button1.innerHTML = "Change Colors";
 button1.onclick = function(){
     const Color = Math.floor(Math.random()*14568394).toString(16);
     document.body.style.backgroundColor = "#" + Color;
-    const Color2 = Math.floor(Math.random()*15512394).toString(16);
-    document.div.style.color = " # " + Color2
+   /* const Color2 = Math.floor(Math.random()*15512394).toString(16);
+    document.div.style.color = " # " + Color2 */
 }
 
 
